@@ -5,6 +5,7 @@
 
 #Items added to ignore
 /[Aa]ssets/[Ss]amples
+/[Aa]ssets/[Tt]TextMesh*
 
 #Original List
 
