@@ -7,7 +7,7 @@ using System;
 
 
 /***
- * Class for active digital clock for use in Lab and Lobby GUIs.
+ * Programs a digital clock for use in Lab and Lobby GUIs.
  * Displays date and time for students and updates time every frame.
  * Uses local time.
  * 
@@ -21,7 +21,7 @@ public class DigitalClock : MonoBehaviour
     private TextMeshProUGUI timeText;
 
     // Awake is called when script is first loaded,
-    // or attached object is instantiated, 
+    // or when the attached object is instantiated, 
     // even if the script is disabled.
     void Awake()
     {
@@ -35,8 +35,9 @@ public class DigitalClock : MonoBehaviour
     }
 
     // Update is called once per frame
+    // gets the current local date and time in 12 hour format
     void Update()
-    {
+    {        
         DateTime time = DateTime.Now;
         timeText.text = time.ToString();
     }

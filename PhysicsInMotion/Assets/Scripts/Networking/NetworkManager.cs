@@ -2,17 +2,19 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NetworkManager : MonoBehaviour
-{
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+/***
+ * Network Manager
+ * 
+ * author:  Cheryl Nielsen
+ * date:    Oct 17, 2022
+ * version: 1.0
+ * 
+ */
+public class NetworkManager
+{
+    
+
+
+
 }
